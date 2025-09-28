@@ -8,8 +8,8 @@ using namespace std;
 std::pair<size_t, size_t> parse_matrix(std::istream& in) {
     string line;
 
-    int rows = 0;
-    int cols = 0;
+    size_t rows = 0;
+    size_t cols = 0;
 
     while(getline(in, line)) {
         istringstream row_stream(line);
@@ -20,7 +20,7 @@ std::pair<size_t, size_t> parse_matrix(std::istream& in) {
             row.push_back(value);
         }
 
-        if(cols != 0 && cols != (int)row.size()) {
+        if(cols != 0 && cols != row.size()) {
             throw invalid_argument("Inconsistent number of columns.");
         }
 
@@ -93,12 +93,10 @@ void print_matrix(std::ostream& out, const std::pair<size_t, size_t>& m_size, co
                 out << " " << get_spaces(value, max_len) << value << " |";
             }
         }
-        // cout << endl;
         out << endl;
         // Print last border of matrix
         if(i == (rows - 1)) {
             int matrix_width = (max_len + 2) * cols + cols + 1;
-            // cout << string(matrix_width, '-') << endl;
             out << string(matrix_width, '-') << endl;
         }
     }
@@ -122,7 +120,6 @@ std::vector<unsigned char> parse_stream(std::istream& in, const std::pair<size_t
 }
 
 void rotate_down(const std::pair<size_t, size_t>& m_size, std::vector<unsigned char>& vec) {
-    size_t rows = m_size.first;
     size_t cols = m_size.second;
 
     // Reverse vector
@@ -140,7 +137,6 @@ void rotate_down(const std::pair<size_t, size_t>& m_size, std::vector<unsigned c
 }
 
 void rotate_up(const std::pair<size_t, size_t>& m_size, std::vector<unsigned char>& vec) {
-    size_t rows = m_size.first;
     size_t cols = m_size.second;
 
     // Get first cols elements
@@ -174,32 +170,27 @@ void rotate_right(const std::pair<size_t, size_t>& m_size, std::vector<unsigned 
     size_t rows = m_size.first;
     size_t cols = m_size.second;
 
-    vector<unsigned char> new_vec(vec.size());
+    for (size_t r = 0; r < rows; r++) {
+        unsigned char last = vec[r * cols + (cols - 1)];
 
-    for(int r = 0; r < rows; r++) {
-        for(int c = 0; c < cols; c++) {
-            int new_c = (c + 1) % cols;
-            new_vec[r * cols + new_c] = vec[r * cols + c];
+        for (size_t c = cols - 1; c > 0; c--) {
+            vec[r * cols + c] = vec[r * cols + (c - 1)];
         }
+        vec[r * cols + 0] = last;
     }
-
-    vec = new_vec;
 }
 
 void rotate_left(const std::pair<size_t, size_t>& m_size, std::vector<unsigned char>& vec) {
     size_t rows = m_size.first;
     size_t cols = m_size.second;
 
-    vector<unsigned char> new_vec(vec.size());
-
-    for(int r = 0; r < rows; r++) {
-        for(int c = 0; c < cols; c++) {
-            int new_c = (c + (cols-1)) % cols;
-            new_vec[r * cols + new_c] = vec[r * cols + c];
+    for(size_t r = 0; r < rows; r++) {
+        unsigned char first = vec[r * cols + 0];
+        for(size_t c = 0; c < (cols - 1); c++) {
+            vec[r * cols + c] = vec[r * cols + (c + 1)];
         }
+        vec[r * cols + (cols - 1)] = first;
     }
-
-    vec = new_vec;
 }
 
 void rotate_right(const std::pair<size_t, size_t>& m_size, std::vector<unsigned char>& vec, int step) {
@@ -225,13 +216,13 @@ void swap_points(const std::pair<size_t, size_t>& m_size, std::vector<unsigned c
     size_t rows = m_size.first;
     size_t cols = m_size.second;
 
-    if(p1.x < 0 || p1.x >= cols) {
+    if(p1.x >= cols) {
         throw invalid_argument("Invalid point p1.");
-    } else if(p1.y < 0 || p1.y >= rows) {
+    } else if(p1.y >= rows) {
         throw invalid_argument("Invalid point p1.");
-    }else if(p2.x < 0 || p2.x >= cols) {
+    }else if(p2.x >= cols) {
         throw invalid_argument("Invalid point p2.");
-    } else if(p2.y < 0 || p2.y >= rows) {
+    } else if(p2.y >= rows) {
         throw invalid_argument("Invalid point p2.");
     }
 
@@ -249,13 +240,13 @@ void swap_points(const std::pair<size_t, size_t>& m_size, std::vector<unsigned c
     vector<int> first_shape_coords;
     vector<int> second_shape_coords;
 
-    if(p1.x < 0 || p1.x >= cols || p1.x + delta.x > cols) {
+    if(p1.x >= cols || p1.x + delta.x > cols) {
         throw invalid_argument("Invalid point p1.");
-    } else if(p1.y < 0 || p1.y >= rows || p1.y + delta.y > rows) {
+    } else if(p1.y >= rows || p1.y + delta.y > rows) {
         throw invalid_argument("Invalid point p1.");
-    }else if(p2.x < 0 || p2.x >= cols || p2.x + delta.x > cols) {
+    }else if(p2.x >= cols || p2.x + delta.x > cols) {
         throw invalid_argument("Invalid point p2.");
-    } else if(p2.y < 0 || p2.y >= rows || p2.y + delta.y > rows) {
+    } else if(p2.y >= rows || p2.y + delta.y > rows) {
         throw invalid_argument("Invalid point p2.");
     }
 
@@ -269,34 +260,23 @@ void swap_points(const std::pair<size_t, size_t>& m_size, std::vector<unsigned c
         throw invalid_argument("Invalid points");
     }
 
-    for(int i = 0; i < delta.y; i++) {
-        for(int j = 0; j < delta.x; j++) {
+    for(size_t i = 0; i < delta.y; i++) {
+        for(size_t j = 0; j < delta.x; j++) {
             int new_p1_x = p1.x + j;
             int new_p1_y = p1.y + i;
             first_shape_coords.push_back(new_p1_y * cols + new_p1_x);
-        }
-    }
-
-    for(int i = 0; i < delta.y; i++) {
-        for(int j = 0; j < delta.x; j++) {
             int new_p2_x = p2.x + j;
             int new_p2_y = p2.y + i;
             second_shape_coords.push_back(new_p2_y * cols + new_p2_x);
         }
     }
 
-    vector<unsigned char> first_shape;
-
     for(size_t i = 0; i < first_shape_coords.size(); i++) {
         int first_coord = first_shape_coords[i];
         int second_coord = second_shape_coords[i];
-        first_shape.push_back(vec[first_coord]);
+        unsigned char first_coord_item = vec[first_coord];
         vec[first_coord] = vec[second_coord];
-    }
-
-    for(size_t i = 0; i < second_shape_coords.size(); i++) {
-        int second_coord = second_shape_coords[i];
-        vec[second_coord] = first_shape[i];
+        vec[second_coord] = first_coord_item;
     }
 }
 
@@ -309,13 +289,11 @@ void decode_picture(const std::string& file, const std::pair<size_t, size_t>& m_
 
     string line;
 
-
     while(getline(f, line)) {
         istringstream line_stream(line);
         char command;
 
         line_stream >> command;
-
 
         switch (command) {
             case 'r': {
@@ -355,27 +333,18 @@ void decode_picture(const std::string& file, const std::pair<size_t, size_t>& m_
                 break;
             }
             case 's': {
-                int p1_x;
-                int p1_y;
-                int p2_x;
-                int p2_y;
-                int delta_x;
-                int delta_y;
-                line_stream >> p1_x;
-                line_stream >> p1_y;
-                line_stream >> p2_x;
-                line_stream >> p2_y;
+                int p1_x, p1_y, p2_x, p2_y, delta_x = 0, delta_y = 0;
+                line_stream >> p1_x >> p1_y >> p2_x >> p2_y;
                 if(line_stream >> delta_x) {
                     line_stream >> delta_y;
                     swap_points(m_size, vec, Point(p1_x, p1_y), Point(p2_x, p2_y), Point(delta_x, delta_y));
                 } else {
                     swap_points(m_size, vec, Point(p1_x, p1_y), Point(p2_x, p2_y));
                 }
-
+                break;
             }
             default: {
                 cerr << "Unknown command: " << command << endl;
-                break;
             }
         }
     }

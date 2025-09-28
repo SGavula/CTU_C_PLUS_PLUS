@@ -1,7 +1,7 @@
 CMakeFiles/tests-stage-2.dir/test-helpers.cpp.o: \
- /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/test-helpers.cpp \
+ /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/test-helpers.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/test-helpers.hpp \
+ /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/test-helpers.hpp \
  /usr/include/c++/11/random /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

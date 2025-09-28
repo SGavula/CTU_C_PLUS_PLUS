@@ -70,7 +70,6 @@ TEST_CASE("Parse stream", "[parse_stream]") {
         REQUIRE_THROWS_AS(parse_stream(str, dim), std::invalid_argument);
     }
 
-
     SECTION("PPM red file") {
         std::pair<size_t, size_t> dim;
         std::ifstream f = open_files("./image/Ctverec.ppm", dim);
@@ -236,7 +235,6 @@ TEST_CASE("Rotate down with step", "[rotate_down]") {
         REQUIRE(valid_vectors(temp, { 'V', 'y', 's', 'l', 'a', ' ', 'd', 'i', 'v', 'c', 'i', 'n', 'a', ' ', 'j', 'a', 'k',
                                       'o', ' ', 'k', 'v', 'e', 't', ',', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '}, 31, 31));
     }
-
 
     SECTION("PPM red file") {
         std::pair<size_t, size_t> dim;

@@ -1,7 +1,7 @@
 CMakeFiles/tests-stage-4.dir/telescope.cpp.o: \
- /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/telescope.cpp \
+ /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/telescope.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/telescope.hpp \
+ /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/telescope.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

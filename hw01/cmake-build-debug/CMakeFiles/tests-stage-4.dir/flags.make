@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -g -std=c++14 -fdiagnostics-color=always -Wall -Wextra -Wunreachable-code -Wpedantic
+CXX_FLAGS = -fsanitize=address -g -std=c++14 -fdiagnostics-color=always -Wall -Wextra -Wunreachable-code -Wpedantic
 
