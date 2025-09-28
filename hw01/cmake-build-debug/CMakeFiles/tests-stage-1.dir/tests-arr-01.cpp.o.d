@@ -1,7 +1,7 @@
 CMakeFiles/tests-stage-1.dir/tests-arr-01.cpp.o: \
- /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/tests-arr-01.cpp \
+ /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/tests-arr-01.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/telescope.hpp \
+ /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/telescope.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -155,7 +155,7 @@ CMakeFiles/tests-stage-1.dir/tests-arr-01.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/test-helpers.hpp \
+ /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/test-helpers.hpp \
  /usr/include/c++/11/random /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -171,7 +171,7 @@ CMakeFiles/tests-stage-1.dir/tests-arr-01.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
- /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/catch.hpp \
+ /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/catch.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/cstddef /usr/include/c++/11/cassert \

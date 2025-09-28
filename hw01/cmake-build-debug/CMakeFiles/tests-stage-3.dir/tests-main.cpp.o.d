@@ -1,7 +1,7 @@
 CMakeFiles/tests-stage-3.dir/tests-main.cpp.o: \
- /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/tests-main.cpp \
+ /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/tests-main.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/catch.hpp \
+ /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/catch.hpp \
  /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

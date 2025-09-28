@@ -1,7 +1,7 @@
-/mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug/CMakeFiles/tests-stage-1.dir
-/mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug/CMakeFiles/tests-stage-2.dir
-/mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug/CMakeFiles/tests-stage-3.dir
-/mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug/CMakeFiles/tests-stage-4.dir
-/mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug/CMakeFiles/test.dir
-/mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug/CMakeFiles/tests-stage-1.dir
+/mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug/CMakeFiles/tests-stage-2.dir
+/mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug/CMakeFiles/tests-stage-3.dir
+/mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug/CMakeFiles/tests-stage-4.dir
+/mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug/CMakeFiles/test.dir
+/mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug/CMakeFiles/rebuild_cache.dir

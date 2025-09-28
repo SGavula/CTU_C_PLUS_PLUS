@@ -256,7 +256,6 @@ TEST_CASE("Decoding with one type command - 3", "[one_type_command]") {
         REQUIRE(valid_vectors(temp, {'b', 'c', 'd', 'a', 'b', 'c', 'd', 'a', 'c', 'b', 'a', 'd'}));
     }
 
-
     SECTION("Easy rotate right - 3") {
         for (size_t i = 0; i < tests; ++i) {
             std::pair<size_t, size_t> dim;
@@ -405,11 +404,11 @@ TEST_CASE("Decoding with many different commands", "[many_commands][.long]") {
         decode_picture("./image/decode5.txt", dim, temp);
         REQUIRE(valid_vector("./image/carina.ppm", temp, dim));
     }
-
+    /*
     SECTION("Quintet") {
         std::pair<size_t, size_t> dim;
-        auto temp = open_file("../image/quintet.ppm", dim);
-        decode_picture("../image/decode_quintet.txt", dim, temp);
+        auto temp = open_file("./image/quintet.ppm", dim);
+        decode_picture("./image/decode_quintet.txt", dim, temp);
         std::ofstream ff = open_result("quintet.ppm", dim);
         for (size_t i = 0; i < temp.size(); ++i)
             ff << temp[i];
@@ -418,8 +417,8 @@ TEST_CASE("Decoding with many different commands", "[many_commands][.long]") {
 
     SECTION("smacs") {
         std::pair<size_t, size_t> dim;
-        auto temp = open_file("../image/smacs.ppm", dim);
-        decode_picture("../image/decode_smacs.txt", dim, temp);
+        auto temp = open_file("./image/smacs.ppm", dim);
+        decode_picture("./image/decode_smacs.txt", dim, temp);
         std::ofstream ff = open_result("smacs0723.ppm", dim);
         for (size_t i = 0; i < temp.size(); ++i)
             ff << temp[i];
@@ -428,8 +427,8 @@ TEST_CASE("Decoding with many different commands", "[many_commands][.long]") {
 
     SECTION("Deaths Ring") {
         std::pair<size_t, size_t> dim;
-        auto temp = open_file("../image/dring.ppm", dim);
-        decode_picture("../image/decode_ring.txt", dim, temp);
+        auto temp = open_file("./image/dring.ppm", dim);
+        decode_picture("./image/decode_ring.txt", dim, temp);
         std::ofstream ff = open_result("deathsring.ppm", dim);
         for (size_t i = 0; i < temp.size(); ++i)
             ff << temp[i];
@@ -438,13 +437,14 @@ TEST_CASE("Decoding with many different commands", "[many_commands][.long]") {
 
     SECTION("Carina small") {
         std::pair<size_t, size_t> dim;
-        auto temp = open_file("../image/carina_small.ppm", dim);
-        decode_picture("../image/decode_carinas.txt", dim, temp);
+        auto temp = open_file("./image/carina_small.ppm", dim);
+        decode_picture("./image/decode_carinas.txt", dim, temp);
         std::ofstream ff = open_result("carina_S.ppm", dim);
         for (size_t i = 0; i < temp.size(); ++i)
             ff << temp[i];
         ff.close();
     }
+     */
 }
 
 /*

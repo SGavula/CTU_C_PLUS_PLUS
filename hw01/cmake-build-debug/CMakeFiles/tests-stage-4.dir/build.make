@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01
+CMAKE_SOURCE_DIR = /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tests-stage-4.dir/depend.make
@@ -70,74 +70,74 @@ include CMakeFiles/tests-stage-4.dir/progress.make
 include CMakeFiles/tests-stage-4.dir/flags.make
 
 CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.o: CMakeFiles/tests-stage-4.dir/flags.make
-CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.o: /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/tests-arr-04.cpp
+CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.o: /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/tests-arr-04.cpp
 CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.o: CMakeFiles/tests-stage-4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.o -MF CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.o.d -o CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.o -c /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/tests-arr-04.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.o -MF CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.o.d -o CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.o -c /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/tests-arr-04.cpp
 
 CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/tests-arr-04.cpp > CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/tests-arr-04.cpp > CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.i
 
 CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/tests-arr-04.cpp -o CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/tests-arr-04.cpp -o CMakeFiles/tests-stage-4.dir/tests-arr-04.cpp.s
 
 CMakeFiles/tests-stage-4.dir/telescope.cpp.o: CMakeFiles/tests-stage-4.dir/flags.make
-CMakeFiles/tests-stage-4.dir/telescope.cpp.o: /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/telescope.cpp
+CMakeFiles/tests-stage-4.dir/telescope.cpp.o: /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/telescope.cpp
 CMakeFiles/tests-stage-4.dir/telescope.cpp.o: CMakeFiles/tests-stage-4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests-stage-4.dir/telescope.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests-stage-4.dir/telescope.cpp.o -MF CMakeFiles/tests-stage-4.dir/telescope.cpp.o.d -o CMakeFiles/tests-stage-4.dir/telescope.cpp.o -c /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/telescope.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests-stage-4.dir/telescope.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests-stage-4.dir/telescope.cpp.o -MF CMakeFiles/tests-stage-4.dir/telescope.cpp.o.d -o CMakeFiles/tests-stage-4.dir/telescope.cpp.o -c /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/telescope.cpp
 
 CMakeFiles/tests-stage-4.dir/telescope.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests-stage-4.dir/telescope.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/telescope.cpp > CMakeFiles/tests-stage-4.dir/telescope.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/telescope.cpp > CMakeFiles/tests-stage-4.dir/telescope.cpp.i
 
 CMakeFiles/tests-stage-4.dir/telescope.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests-stage-4.dir/telescope.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/telescope.cpp -o CMakeFiles/tests-stage-4.dir/telescope.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/telescope.cpp -o CMakeFiles/tests-stage-4.dir/telescope.cpp.s
 
 CMakeFiles/tests-stage-4.dir/tests-main.cpp.o: CMakeFiles/tests-stage-4.dir/flags.make
-CMakeFiles/tests-stage-4.dir/tests-main.cpp.o: /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/tests-main.cpp
+CMakeFiles/tests-stage-4.dir/tests-main.cpp.o: /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/tests-main.cpp
 CMakeFiles/tests-stage-4.dir/tests-main.cpp.o: CMakeFiles/tests-stage-4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests-stage-4.dir/tests-main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests-stage-4.dir/tests-main.cpp.o -MF CMakeFiles/tests-stage-4.dir/tests-main.cpp.o.d -o CMakeFiles/tests-stage-4.dir/tests-main.cpp.o -c /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/tests-main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests-stage-4.dir/tests-main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests-stage-4.dir/tests-main.cpp.o -MF CMakeFiles/tests-stage-4.dir/tests-main.cpp.o.d -o CMakeFiles/tests-stage-4.dir/tests-main.cpp.o -c /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/tests-main.cpp
 
 CMakeFiles/tests-stage-4.dir/tests-main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests-stage-4.dir/tests-main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/tests-main.cpp > CMakeFiles/tests-stage-4.dir/tests-main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/tests-main.cpp > CMakeFiles/tests-stage-4.dir/tests-main.cpp.i
 
 CMakeFiles/tests-stage-4.dir/tests-main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests-stage-4.dir/tests-main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/tests-main.cpp -o CMakeFiles/tests-stage-4.dir/tests-main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/tests-main.cpp -o CMakeFiles/tests-stage-4.dir/tests-main.cpp.s
 
 CMakeFiles/tests-stage-4.dir/test-helpers.cpp.o: CMakeFiles/tests-stage-4.dir/flags.make
-CMakeFiles/tests-stage-4.dir/test-helpers.cpp.o: /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/test-helpers.cpp
+CMakeFiles/tests-stage-4.dir/test-helpers.cpp.o: /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/test-helpers.cpp
 CMakeFiles/tests-stage-4.dir/test-helpers.cpp.o: CMakeFiles/tests-stage-4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tests-stage-4.dir/test-helpers.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests-stage-4.dir/test-helpers.cpp.o -MF CMakeFiles/tests-stage-4.dir/test-helpers.cpp.o.d -o CMakeFiles/tests-stage-4.dir/test-helpers.cpp.o -c /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/test-helpers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tests-stage-4.dir/test-helpers.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests-stage-4.dir/test-helpers.cpp.o -MF CMakeFiles/tests-stage-4.dir/test-helpers.cpp.o.d -o CMakeFiles/tests-stage-4.dir/test-helpers.cpp.o -c /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/test-helpers.cpp
 
 CMakeFiles/tests-stage-4.dir/test-helpers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests-stage-4.dir/test-helpers.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/test-helpers.cpp > CMakeFiles/tests-stage-4.dir/test-helpers.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/test-helpers.cpp > CMakeFiles/tests-stage-4.dir/test-helpers.cpp.i
 
 CMakeFiles/tests-stage-4.dir/test-helpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests-stage-4.dir/test-helpers.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/test-helpers.cpp -o CMakeFiles/tests-stage-4.dir/test-helpers.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/test-helpers.cpp -o CMakeFiles/tests-stage-4.dir/test-helpers.cpp.s
 
 CMakeFiles/tests-stage-4.dir/catch.cpp.o: CMakeFiles/tests-stage-4.dir/flags.make
-CMakeFiles/tests-stage-4.dir/catch.cpp.o: /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/catch.cpp
+CMakeFiles/tests-stage-4.dir/catch.cpp.o: /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/catch.cpp
 CMakeFiles/tests-stage-4.dir/catch.cpp.o: CMakeFiles/tests-stage-4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tests-stage-4.dir/catch.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests-stage-4.dir/catch.cpp.o -MF CMakeFiles/tests-stage-4.dir/catch.cpp.o.d -o CMakeFiles/tests-stage-4.dir/catch.cpp.o -c /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/catch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tests-stage-4.dir/catch.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tests-stage-4.dir/catch.cpp.o -MF CMakeFiles/tests-stage-4.dir/catch.cpp.o.d -o CMakeFiles/tests-stage-4.dir/catch.cpp.o -c /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/catch.cpp
 
 CMakeFiles/tests-stage-4.dir/catch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tests-stage-4.dir/catch.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/catch.cpp > CMakeFiles/tests-stage-4.dir/catch.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/catch.cpp > CMakeFiles/tests-stage-4.dir/catch.cpp.i
 
 CMakeFiles/tests-stage-4.dir/catch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tests-stage-4.dir/catch.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/catch.cpp -o CMakeFiles/tests-stage-4.dir/catch.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/catch.cpp -o CMakeFiles/tests-stage-4.dir/catch.cpp.s
 
 # Object files for target tests-stage-4
 tests__stage__4_OBJECTS = \
@@ -157,7 +157,7 @@ tests-stage-4: CMakeFiles/tests-stage-4.dir/test-helpers.cpp.o
 tests-stage-4: CMakeFiles/tests-stage-4.dir/catch.cpp.o
 tests-stage-4: CMakeFiles/tests-stage-4.dir/build.make
 tests-stage-4: CMakeFiles/tests-stage-4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable tests-stage-4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable tests-stage-4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests-stage-4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +169,6 @@ CMakeFiles/tests-stage-4.dir/clean:
 .PHONY : CMakeFiles/tests-stage-4.dir/clean
 
 CMakeFiles/tests-stage-4.dir/depend:
-	cd /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01 /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01 /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/cmake-build-debug/CMakeFiles/tests-stage-4.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01 /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01 /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/cmake-build-debug/CMakeFiles/tests-stage-4.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/tests-stage-4.dir/depend
 

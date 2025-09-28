@@ -1,7 +1,7 @@
 CMakeFiles/tests-stage-2.dir/catch.cpp.o: \
- /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/catch.cpp \
+ /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/catch.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/gavul/Desktop/cvut_programming/CTU-C++/hw01/catch.hpp \
+ /mnt/c/Users/gavul/Desktop/cvut_programming/CTU_C_PLUS_PLUS/hw01/catch.hpp \
  /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
